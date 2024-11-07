@@ -1,5 +1,4 @@
 #include "CType.h"
-#include "pch.h"
 
 void CType::Run()
 {

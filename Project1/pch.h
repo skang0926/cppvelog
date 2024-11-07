@@ -11,6 +11,4 @@
 #include <Windows.h>
 #include <time.h>
 
-#include "CInterface.h"
-
 using namespace std;

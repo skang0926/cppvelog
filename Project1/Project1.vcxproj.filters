@@ -14,6 +14,9 @@
     <Filter Include="소스 파일\Lectures\1.Type">
       <UniqueIdentifier>{c22e904f-0f50-43f0-81d4-66edc833b764}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Lectures\2.Build">
+      <UniqueIdentifier>{6a3b40d8-ac2c-481d-a8b6-87fb48ea9065}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -24,6 +27,9 @@
     </ClCompile>
     <ClCompile Include="CType.cpp">
       <Filter>소스 파일\Lectures\1.Type</Filter>
+    </ClCompile>
+    <ClCompile Include="CDD.cpp">
+      <Filter>소스 파일\Lectures\2.Build</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -38,6 +44,9 @@
     </ClInclude>
     <ClInclude Include="Tests.h">
       <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="CDD.h">
+      <Filter>소스 파일\Lectures\2.Build</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

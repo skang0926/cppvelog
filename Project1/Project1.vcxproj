@@ -131,11 +131,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CDD.cpp" />
     <ClCompile Include="CInterface.cpp" />
     <ClCompile Include="CType.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CDD.h" />
     <ClInclude Include="CInterface.h" />
     <ClInclude Include="CType.h" />
     <ClInclude Include="pch.h" />

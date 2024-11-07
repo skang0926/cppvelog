@@ -4,11 +4,9 @@
 #include "pch.h"
 #include "Tests.h"
 
-
 int main(void)
 {
-	unique_ptr<CInterface> ci = make_unique<CType>();
-
+	unique_ptr<CInterface> ci = make_unique<CDD>();
 
 	ci->Run();
 
