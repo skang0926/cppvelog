@@ -5,17 +5,20 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="소스 파일\Lectures">
+    <Filter Include="소스 파일\Postings">
       <UniqueIdentifier>{44346b9f-0a68-4867-81bc-e779193130ef}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Lectures\Interface">
+    <Filter Include="소스 파일\Postings\Interface">
       <UniqueIdentifier>{cd32ad59-d309-451c-b177-2a400547a79b}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Lectures\1.Type">
+    <Filter Include="소스 파일\Postings\1.Type">
       <UniqueIdentifier>{c22e904f-0f50-43f0-81d4-66edc833b764}</UniqueIdentifier>
     </Filter>
-    <Filter Include="소스 파일\Lectures\2.Build">
+    <Filter Include="소스 파일\Postings\2.Build">
       <UniqueIdentifier>{6a3b40d8-ac2c-481d-a8b6-87fb48ea9065}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Postings\3.Pointer">
+      <UniqueIdentifier>{03b050b5-8e83-420e-b424-c8c43a63de6e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -23,13 +26,16 @@
       <Filter>소스 파일</Filter>
     </ClCompile>
     <ClCompile Include="CInterface.cpp">
-      <Filter>소스 파일\Lectures\Interface</Filter>
+      <Filter>소스 파일\Postings\Interface</Filter>
     </ClCompile>
     <ClCompile Include="CType.cpp">
-      <Filter>소스 파일\Lectures\1.Type</Filter>
+      <Filter>소스 파일\Postings\1.Type</Filter>
     </ClCompile>
     <ClCompile Include="CDD.cpp">
-      <Filter>소스 파일\Lectures\2.Build</Filter>
+      <Filter>소스 파일\Postings\2.Build</Filter>
+    </ClCompile>
+    <ClCompile Include="CPointer.cpp">
+      <Filter>소스 파일\Postings\3.Pointer</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -37,16 +43,19 @@
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="CInterface.h">
-      <Filter>소스 파일\Lectures\Interface</Filter>
+      <Filter>소스 파일\Postings\Interface</Filter>
     </ClInclude>
     <ClInclude Include="CType.h">
-      <Filter>소스 파일\Lectures\1.Type</Filter>
+      <Filter>소스 파일\Postings\1.Type</Filter>
     </ClInclude>
     <ClInclude Include="Tests.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
     <ClInclude Include="CDD.h">
-      <Filter>소스 파일\Lectures\2.Build</Filter>
+      <Filter>소스 파일\Postings\2.Build</Filter>
+    </ClInclude>
+    <ClInclude Include="CPointer.h">
+      <Filter>소스 파일\Postings\3.Pointer</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

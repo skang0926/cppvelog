@@ -1,18 +1,14 @@
 #include "CType.h"
 
+/// 관련 문서 : 타입 ///////////////////////////////////////////////////
+/// https://velog.io/@skang0926/%ED%83%80%EC%9E%85
+///////////////////////////////////////////////////////////////////////////////
+
 void CType::Run()
 {
 	{
-		int i = 1;
-		float f = 1.f;
+		cout << "float에 강제 메모리 카피" << endl;
 
-		if (i == f)
-		{
-			cout << "same" << endl;
-		}
-	}
-	cout.precision(32);
-	{
 		float f = 0;
 		int i = 1;
 		memcpy(&f, &i, 4);
@@ -21,6 +17,8 @@ void CType::Run()
 	}
 	
 	{
+		cout << endl << "int의 표현 범위" << endl;
+
 		unsigned int uimin = 0x00000000; // 00000000 00000000 00000000 00000000
 		unsigned int uimax = 0xFFFFFFFF; // 11111111 11111111 11111111 11111111;
 
@@ -35,6 +33,7 @@ void CType::Run()
 	}
 
 	{
+		cout << endl << "비트로 float 표현하기 1" << endl;
 		unsigned int ui = 0x81B40000; // 1000 0001 1011 0100 0000 0000 0000 0000
 		float f; 
 		memcpy(&f, &ui, 4);
@@ -43,6 +42,8 @@ void CType::Run()
 	}
 
 	{
+		cout << endl << "비트로 float 표현하기 2" << endl;
+
 		unsigned int ui = 0xC1340000; // 1100 0001 0011 0100 0000 0000 0000 0000
 		float f;
 		memcpy(&f, &ui, 4);
@@ -51,6 +52,7 @@ void CType::Run()
 	}
 
 	{
+		cout << endl << "부동 소수점 표현 한계" << endl;
 		float f[10];
 		f[0] = 8388608.0;
 		f[1] = 8388608.1;
@@ -90,6 +92,7 @@ void CType::Run()
 	}
 
 	{
+		cout << endl << "부동소수점의 무한과 NaN" << endl;
 		unsigned int ui1 = 0x7f800000; // 0111 1111 1000 0000 0000 0000 0000 0000
 		unsigned int ui2 = 0x7f800001;
 		float f1;

@@ -6,10 +6,11 @@
 
 int main(void)
 {
-	unique_ptr<CInterface> ci = make_unique<CDD>();
+	//unique_ptr<CInterface> ci = make_unique<CType>();
+	//ci->Run(); // CType의 Run 함수
 
-	ci->Run();
-
+	unique_ptr<CInterface> ci = make_unique<CPointer>();
+	ci->Run(); // CPointer의 Run 함수
 
 	return 0;
 }
