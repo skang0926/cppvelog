@@ -20,6 +20,9 @@
     <Filter Include="소스 파일\Postings\3.Pointer">
       <UniqueIdentifier>{03b050b5-8e83-420e-b424-c8c43a63de6e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\Postings\4.Memory">
+      <UniqueIdentifier>{361eb6b2-f0dc-4d7b-b9e6-6d66088be234}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -36,6 +39,9 @@
     </ClCompile>
     <ClCompile Include="CPointer.cpp">
       <Filter>소스 파일\Postings\3.Pointer</Filter>
+    </ClCompile>
+    <ClCompile Include="CMemory.cpp">
+      <Filter>소스 파일\Postings\4.Memory</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -56,6 +62,9 @@
     </ClInclude>
     <ClInclude Include="CPointer.h">
       <Filter>소스 파일\Postings\3.Pointer</Filter>
+    </ClInclude>
+    <ClInclude Include="CMemory.h">
+      <Filter>소스 파일\Postings\4.Memory</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
