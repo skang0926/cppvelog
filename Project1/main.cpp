@@ -12,7 +12,10 @@ int main(void)
 	//unique_ptr<CInterface> ci = make_unique<CPointer>();
 	//ci->Run(); // CPointerÀÇ Run ÇÔ¼ö
 
-	unique_ptr<CInterface> ci = make_unique<CMemory>();
+	//unique_ptr<CInterface> ci = make_unique<CMemory>();
+	//ci->Run();
+
+	unique_ptr<CInterface> ci = make_unique<CClass>();
 	ci->Run();
 
 	return 0;

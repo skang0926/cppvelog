@@ -4,3 +4,4 @@
 #include "CDD.h"
 #include "CPointer.h"
 #include "CMemory.h"
+#include "CClass.h"

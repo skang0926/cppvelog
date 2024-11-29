@@ -139,6 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CClass.cpp" />
     <ClCompile Include="CDD.cpp" />
     <ClCompile Include="CInterface.cpp" />
     <ClCompile Include="CMemory.cpp" />
@@ -147,6 +148,7 @@
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CClass.h" />
     <ClInclude Include="CDD.h" />
     <ClInclude Include="CInterface.h" />
     <ClInclude Include="CMemory.h" />
